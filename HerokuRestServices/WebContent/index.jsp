@@ -83,7 +83,7 @@
 										+ response.name);
 								document.getElementById('status').innerHTML = 'Thanks for logging in, '
 										+ response.name + '!';
-								document.getElementById('response').innerHTML = response;
+								
 							});
 		}
 	</script>
@@ -99,7 +99,7 @@
 	</fb:login-button>
 
 	<div id="status"></div>
-		<b><div id="response"></div></b>
+	
 
 </body>
 </html>
